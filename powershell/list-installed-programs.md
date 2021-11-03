@@ -1,10 +1,9 @@
-# List Installed Programs With PowerShell
+# Get Installed Programs With PowerShell
 
 While updating a server with an old operating system ( Windows Server 2008 R2 Standard ), we decided to replace it with another one with Windows 2019 Standart Edition.
 Naturally, all the programs on the old computer had to be installed on the new one. Meanwhile, I needed a list of the programs on the server.
 
-The following script lists the installed programs on the computer and saves it to a `CSV` file. The file named with computer name will be created with in the folder where you run the script.
-You can save it as a `.ps1` file and run.
+The following script lists the installed programs on the computer and saves it to a `CSV` file. The file named with computer name will be created with in the folder where you run the script. You can save it as a `.ps1` file and run.
 
 ```
 Clear-Host;
